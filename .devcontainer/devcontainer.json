@@ -1,0 +1,16 @@
+{
+	"name": "zephyr",
+	"image": "mcr.microsoft.com/devcontainers/typescript-node:16-bullseye",
+	"features": {
+		"ghcr.io/meaningful-ooo/devcontainer-features/fish:1": {}
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"Vue.volar",
+				"eamodio.gitlens"
+			]
+		}
+	},
+	"postCreateCommand": "yarn"
+}
