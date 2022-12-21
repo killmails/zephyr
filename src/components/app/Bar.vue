@@ -7,6 +7,8 @@
                 <zphr />
             </v-btn>
 
+            <v-btn :to="{ name: 'timer' }">Timer</v-btn>
+
             <v-spacer />
 
             <v-btn color="secondary" variant="outlined" :href="referralLink" target="_blank">
